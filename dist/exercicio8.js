@@ -9,7 +9,7 @@ var piscina = /** @class */ (function () {
         return this.diam / 2;
     };
     piscina.prototype.area = function () {
-        return 3.14 * (this.raio() * this.raio());
+        return 3.14159 * (this.raio() * this.raio());
     };
     piscina.prototype.custoTotal = function () {
         return this.area() * this.custoConst;
